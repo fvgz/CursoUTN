@@ -1,21 +1,46 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 10px;
+}
+
+body {
     color: aqua;
 }
-h1{
+
+h1 {
     color: blueviolet;
 }
-h2{
+
+h2 {
     color: crimson;
 }
-h3{
+
+h3 {
     color: beige;
 }
-#Lista1{
+
+#Lista1 {
     color: dodgerblue;
 }
-#Lista2{
+
+#Lista2 {
     color: darkmagenta;
 }
-.pruebaclas{
+
+.pruebaclas {
     color: violet;
 }
+
+.encabe {
+    background-color: cadetblue;
+    padding: 2rem;
+    height: 30px;
+}
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
