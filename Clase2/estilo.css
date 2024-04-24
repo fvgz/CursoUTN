@@ -1,0 +1,21 @@
+body{
+    color: aqua;
+}
+h1{
+    color: blueviolet;
+}
+h2{
+    color: crimson;
+}
+h3{
+    color: beige;
+}
+#Lista1{
+    color: dodgerblue;
+}
+#Lista2{
+    color: darkmagenta;
+}
+.pruebaclas{
+    color: violet;
+}
