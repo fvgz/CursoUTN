@@ -1,0 +1,35 @@
+.caja{
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+.azul{
+    background-color: blue ;
+    height: 200px;
+    width: 200px;
+}
+.rojo{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.Anaranjado{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+}
+.Cyan{
+   background-color: cyan;
+   height: 200px;
+   width: 200px;
+}
+.Verde{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+.Celeste{
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+}

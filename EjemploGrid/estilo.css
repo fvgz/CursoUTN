@@ -1,0 +1,36 @@
+.grid_container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.producto{
+    background-color: cadetblue;
+    padding: 1rem;
+    border: 10px solid; 
+    border-color: aqua;
+    text-align: center;
+}
+#grilla{
+    display: grid;
+    grid-template-areas: 
+    "header productos header"
+    "productos productos productos"
+    "servicios servicios servicios";
+
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-columns: 25% auto 15%;
+    row-gap: 1rem;
+    column-gap: 2rem;
+    height: 100px;
+}
+.header{
+    background-color: brown;
+    grid-area: header;
+}
+#productos{
+    background-color: bisque;
+    grid-area: productos;
+}
+#servicios{
+    background-color: crimson;
+    grid-area: servicios;
+}
