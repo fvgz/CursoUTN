@@ -1,9 +1,9 @@
-#grilla{
+#grilla {
     display: grid;
-    grid-template-areas: 
-    "header productos header"
-    "productos producto AAside"
-    "Futer Futer AAside";
+    grid-template-areas:
+        "header productos header"
+        "productos producto AAside"
+        "Futer Futer AAside";
 
     grid-template-rows: 100px 1fr 1fr 75px;
     grid-template-columns: 25% auto 15%;
@@ -11,27 +11,33 @@
     column-gap: 2rem;
     height: 100px;
 }
-.header{
+
+.header {
     background-color: brown;
     grid-area: header;
 }
-#productos{
+
+#productos {
     background-color: bisque;
     grid-area: productos;
 }
-#servicios{
+
+#servicios {
     background-color: crimson;
     grid-area: servicios;
 }
-#producto{
+
+#producto {
     background-color: aquamarine;
     grid-area: producto;
 }
-#futer{
+
+#futer {
     background-color: blueviolet;
     grid-area: futer;
 }
-.borde{
+
+.borde {
     height: 10px;
     width: 10px;
 }

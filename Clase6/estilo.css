@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Mobile First*/
+body {
+    background-color: crimson;
+}
+
+
+.tienda{
+    background-color: aqua;
+}
+
+.texto {
+    padding: 2rem;
+    font-size: 1.6rem;
+}
+
+.footer {
+    height: 15vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*Tableta*/
+@media(min-width:768px) {
+    body {
+        background-color: blueviolet;
+    }
+
+    .tienda {
+        background-color: darkorchid;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    }    
+.footer {
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    }
+}
